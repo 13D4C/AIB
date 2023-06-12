@@ -196,7 +196,7 @@ if __name__ == "__main__":
 @st.cache
 def loadModel():
     start_dl = time.time()
-    model_file = "best.pt" 
+    model_file = "./models/best.pt" 
     finished_dl = time.time()
     print(f"Model Downloaded, ETA:{finished_dl-start_dl}")
 loadModel()
